@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_phone"
+    tools:context=".HomePhoneActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="40dp"
+            android:text="請選擇您所在的縣市，"
+            android:textSize="28dp"
+            android:textColor="#157258"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/home_phone_btn1"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_style4"
+                android:text="@string/TaipeiCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn2"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/NewTaipeiCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn3"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/KeelungCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn4"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/YilanCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn5"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/TaoyuanCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn6"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/HsinchuCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn7"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/HsinchuCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn8"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/MiaoliCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn9"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/TaichungCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn10"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/ChanghuaCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn11"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/NantouCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn12"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/YunlinCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn13"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/ChiayiCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn14"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/ChiayiCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn15"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/TainanCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn16"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/KaohsiungCity"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn17"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/PingtungCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn18"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/PenghuCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn19"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/HualienCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn20"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/TaitungCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn21"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/LianjiangCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+            <Button
+                android:id="@+id/home_phone_btn22"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_style4"
+                android:text="@string/KinmenCounty"
+                android:textColor="#0B0B0B"
+                android:textSize="25sp"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_account">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style3"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="50dp"
+            android:textSize="28dp"
+            android:textColor="#000000"
+            android:text="今日體溫" />
+
+        <TextView
+            android:id="@+id/temp_daily"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="50dp"
+            android:layout_marginLeft="70dp"
+            android:textSize="34dp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="隔離檢疫期"
+            android:textSize="20dp"
+            android:textColor="#555555"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="280dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_style3"
+        android:clickable="true"
+        android:focusable="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="隔離"
+            android:textSize="22dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:textSize="34dp"
+            android:textColor="#830303"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="290dp">
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="防疫站"
+            android:textSize="20dp"
+            android:textColor="#555555"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="470dp">
+
+        <LinearLayout
+            android:id="@+id/home_phone_btn"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button_style4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="20dp"
+                android:gravity="center"
+                android:src="@drawable/ic_phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center"
+                android:text="防疫專線"
+                android:textSize="20dp"
+                android:textColor="#0B0B0B"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/home_info_btn"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button_style4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingTop="20dp"
+                android:gravity="center"
+                android:src="@drawable/ic_info"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center"
+                android:text="防疫資訊"
+                android:textSize="20dp"
+                android:textColor="#0B0B0B"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

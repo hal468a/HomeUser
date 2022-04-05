@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/listview_style1"
+    android:padding="10dp">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="230dp"
+           android:layout_height="wrap_content"
+           android:padding="20dp"
+           android:layout_gravity="center"
+           android:orientation="vertical">
+           <TextView
+               android:id="@+id/date_tv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Date"
+               android:textSize="18dp"/>
+           <TextView
+               android:id="@+id/time_tv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="time"
+               android:textSize="16dp"/>
+       </LinearLayout>
+
+       <View
+           android:layout_width="2dp"
+           android:layout_height="60dp"
+           android:layout_gravity="center"
+           android:background="#BCBABA" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/temp_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="temp"
+            android:textSize="20dp"
+            android:textColor="#009688"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="°C"
+            android:textSize="20dp"
+            android:textColor="#009688"/>
+
+    </LinearLayout>
+
+   </LinearLayout>
+</RelativeLayout>

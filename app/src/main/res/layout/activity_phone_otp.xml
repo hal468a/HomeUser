@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_otp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="已傳送驗證碼簡訊至您的手機!"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+        <EditText
+            android:id="@+id/otp_et"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="請輸入驗證碼"
+            android:textSize="18dp"
+            android:inputType="number"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="若無收到驗證碼請於60秒後點選重新傳送。"
+                android:textColor="#4C4B4B"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/resend_btn"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#B8B7B1"
+                android:drawableTint="#FFFFFF"
+                android:foregroundTint="#FFFFFF"
+                android:text="重新傳送"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:typeface="sans" />
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/confirm_btn"
+            android:background="@drawable/button_style5"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="90dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTint="#FFFFFF"
+            android:foregroundTint="#FFFFFF"
+            android:text="確認"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

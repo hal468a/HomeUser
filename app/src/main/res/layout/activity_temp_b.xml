@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_account"
+    tools:context=".TempBActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="請勾選是否有出現下列症狀"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <CheckBox
+            android:id="@+id/health_cbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="165dp"
+            android:text="發燒"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="肌肉痠痛"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="疲勞、全身無力"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="咳嗽"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="噁心"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="頭痛"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="腹痛、腹瀉"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="鼻塞、流鼻水"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="胸悶"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="呼吸困難"
+            android:textSize="23sp" />
+
+        <CheckBox
+            android:id="@+id/health_cbox11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
+            android:text="無"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/health_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style5"
+            android:text="確認送出"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_temp"
+    tools:context=".TempFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/measuring_btn"
+            android:layout_width="270dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/button_style5"
+            android:text="額溫測量"
+            android:textColor="#ffff"
+            android:textSize="24dp"
+            android:textScaleX="1" />
+
+        <Button
+            android:id="@+id/inquiry_btn"
+            android:layout_width="270dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_style2"
+            android:text="健康問診"
+            android:textColor="#35A58D"
+            android:textSize="24dp"
+            android:textScaleX="1"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

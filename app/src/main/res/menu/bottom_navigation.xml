@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="首頁" />
+
+    <item
+        android:id="@+id/home_nav_temp"
+        android:icon="@drawable/ic_temp"
+        android:title="健康診斷" />
+
+    <item
+        android:id="@+id/home_nav_gps"
+        android:icon="@drawable/ic_gps"
+        android:title="居家定位" />
+
+    <item
+        android:id="@+id/home_nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="我的帳戶" />
+</menu>

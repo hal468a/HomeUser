@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homeuser">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TempRecordActivity"></activity>
+        <activity android:name=".PhoneOTPActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAF-d0kBFzzP-EWEHmhpKjs6IfjDgsMRog" />
+
+        <receiver
+            android:name=".Gps.GeofenceBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".PhoneNumber.PhoneYilanCounty" />
+        <activity android:name=".PhoneNumber.PhoneTaoyuanCity" />
+        <activity android:name=".PhoneNumber.PhoneTaitungCounty" />
+        <activity android:name=".PhoneNumber.PhoneTaichungCity" />
+        <activity android:name=".PhoneNumber.PhoneNantouCounty" />
+        <activity android:name=".PhoneNumber.PhoneMiaoliCounty" />
+        <activity android:name=".PhoneNumber.PhoneKinmenCounty" />
+        <activity android:name=".PhoneNumber.PhoneKeelungCity" />
+        <activity android:name=".PhoneNumber.PhoneHualienCounty" />
+        <activity android:name=".PhoneNumber.PhoneHsinchuCity" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomeInfoActivity" />
+        <activity android:name=".HomePhoneActivity" />
+        <activity android:name=".TempAActivity" />
+        <activity android:name=".TempBActivity" />
+        <activity android:name=".Gps.GpsBActivity" />
+        <activity android:name=".AccountInfoActivity" />
+        <activity android:name=".AccountHealthActivity" />
+        <activity android:name=".AccountTempActivity" />
+        <activity android:name=".AccountSignInActivity" />
+        <activity android:name=".AccountSignInRecordActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".LocationService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

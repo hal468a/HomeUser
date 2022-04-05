@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_temp_a"
+    tools:context=".TempAActivity">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="0dp"
+        android:textColor="#35A58D"
+        android:text=""
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/temp_double"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="40dp"
+        android:textColor="#35A58D"
+        android:text=""/>
+    <Button
+        android:id="@+id/discover_btn"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_style2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="搜尋裝置"
+        android:textColor="#57AC94"
+        android:textSize="20dp"
+        android:textScaleX="1"/>
+    <ListView
+        android:id="@+id/devicesListView"
+        android:layout_width="250dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#35A58D"
+        android:textScaleX="1" />
+
+
+</LinearLayout>
